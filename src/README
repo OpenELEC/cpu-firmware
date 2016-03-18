@@ -1,0 +1,24 @@
+***************************************************************************
+>>> What it does
+***************************************************************************
+Deploy an Intel and AMD microcode. This tool is obsolete and the microcode
+is the subject to be distributed via kernel-firmware, however Intel still
+does not supply the microcode in a form consumable by the Linux's microcode
+driver. So that this tool transform Intel's microcode as well as deploy it.
+
+***************************************************************************
+>>> Contributors
+***************************************************************************
+Credit where credit is due; the following people contributed ideas or
+patches. Thanks :)
+
+Kay Sievers <kay.sievers@vrfy.org>
+
+***************************************************************************
+>>> Special thanks
+***************************************************************************
+o Advanced Micro Devices, Inc and Intel Corporation, for supplying
+  microcode update data and publishing the specifications that enabled us
+  to write microcode driver for Linux.
+
+- Anton Arapov <arapov@gmail.com> http://fedorahosted.org/microcode_ctl/
